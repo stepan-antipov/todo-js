@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200;1,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>todos</h1>
+        </header>
+        <main>
+            <section class="section__cart">
+
+                
+                <form id="form" class="cart__input cart--style">
+                    <!-- <button><img src="./img/arrow-down.png""></button> -->
+                    <input required type="text" id="taskInput" placeholder="What needs to be done?">
+                    <button><img src="./img/green-arrow.png"></button>
+                </form>
+                <div id="cartWrapper"></div>
+                <!-- <div id="cartEmpty" class="cart__empty">
+                    <p>To-do list is empty</p>
+                </div> -->
+                
+                <div id="cartItems" class="cart__items">
+                </div>
+
+                <div class="cart__bottom cart--style">
+                    <div class="cart__info"><span id="count">0</span> items left</div>
+                    <div class="cart__buttons">
+                        <!--
+                        <button>All</button>
+                        <button>Active</button>
+                        <button>Completed</button>
+                    -->
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            <div>Created by Stepan Antipov</div>
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
